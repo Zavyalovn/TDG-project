@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Cooking Project</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; /* Place content at the beginning and end */
+      align-items: flex-start; /* Align items to the left */
+      min-height: 100vh;
+      margin: 0;
+      background-color: pink;
+    }
+
+    header {
+      text-align: left;
+      width: 100%;
+      padding: 20px 0;
+      margin-bottom: 20px; /* Adjusted margin at the bottom of the header */
+      font-size: 36px; /* Make header smaller */
+      color: black; /* Make header black */
+    }
+
+    header h1 span:nth-child(1),
+    header h1 span:nth-child(2) {
+      color: black; /* Make text black */
+    }
+
+    .delivery-text {
+      color: darkviolet;
+      font-size: 36px;
+      text-align: left; /* Align text to the left */
+    }
+
+    .footer-text {
+      color: black;
+      font-size: 14px;
+      text-align: left; /* Align text to the left */
+      margin-bottom: 20px; /* Adjusted margin at the bottom of the footer text */
+    }
+
+    table {
+      margin-top: 20px; /* Add some space between the text and the table */
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    th, td {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><span>Cooking</span><span>Project</span></h1>
+  </header>
+  
+  <div style="display: flex; justify-content: flex-start;">
+    <table>
+      <tr>
+        <th><a href="https://YOUR_DISHES_SITE.com" style="font-size: 25px;">Dishes</a></th>
+      </tr>
+      <tr>
+        <th><a href="https://YOUR_STORES_SITE.com" style="font-size: 25px;">Stores</a></th>
+      </tr>
+      <tr>
+        <th><a href="https://YOUR_ABOUT_US_SITE.com" style="font-size: 25px;">About Us</a></th>
+      </tr>
+      <tr>
+        <th><a href="https://YOUR_CART_SITE.com" style="font-size: 25px;">Cart</a></th>
+      </tr>
+    </table>
+  </div>
+
+  <div class="footer-text">
+    <p style="font-size: 24px;">We work in Auckland 2024</p>
+  </div>
+</body>
+  
+</html>
